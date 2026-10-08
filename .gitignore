@@ -1,11 +1,36 @@
+# Backup
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
 
-# n8n backups and runtime data
-n8n.zip
+# n8n runtime data
 n8n_data/
+node_modules/
 
-# Generated audio
+# Generated media
 *.wav
+*.mp3
+*.mp4
 
-# Local secrets
+# Secrets
 .env
 .env.*
+!.env.example
+*.pem
+*.key
+
+# System
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build / cache
+dist/
+build/
+.cache/
+tmp/
+temp/
