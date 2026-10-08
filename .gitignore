@@ -1,0 +1,11 @@
+
+# n8n backups and runtime data
+n8n.zip
+n8n_data/
+
+# Generated audio
+*.wav
+
+# Local secrets
+.env
+.env.*
